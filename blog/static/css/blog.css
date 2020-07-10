@@ -4,7 +4,8 @@ h1 a, h2 a {
 }
 
 body {
-	padding-left: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .page-header {
@@ -93,7 +94,14 @@ h1, h2, h3, h4 {
 	margin-right: -20px;
 }
 
-@media screen and (min-width: 400px) {
+.center-text{
+	text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+
+	
+
 
 }
 

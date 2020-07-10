@@ -9,4 +9,7 @@ for pythonanywhere.com
 cd mjalq.pythonanywhere.com
 git pull
 
-pyhton manage.py collectstatic
+
+
+workon jalq.pythonanywhere.com
+python manage.py collectstatic
