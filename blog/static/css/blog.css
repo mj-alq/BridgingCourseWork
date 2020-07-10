@@ -8,51 +8,92 @@ body {
 }
 
 .page-header {
-background-color: #494D5F;
-margin-top: 0;
-padding: 10px 10px 10px 40px;
+	background-color: #494D55;
+	margin-top: 0;
+	padding: 10px 10px 10px 40px;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-color: #ffffff;
-font-size: 36pt;
-text-decoration: none;
+	color: #ffffff;
+	font-size: 36pt;
+	text-decoration: none;
 }
 .content {
-margin-left: 40px;
+	margin-left: 40px;
 }
 h1, h2, h3, h4 {
-font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive;
 }
 .date {
-color: #828282;
-float: right;
-padding-top: 8px;
+	color: #828282;
+	float: right;
+	padding-top: 8px;
 }
 .save {
-float: right;
+	float: right;
 }
 .post-form textarea, .post-form input {
-width: 100%;
+	width: 100%;
 }
 .top-menu, .top-menu:hover, .top-menu:visited {
-color: #ffffff;
-float: right;
-font-size: 26pt;
-margin-right: 20px;
-margin-top: 20px;
+	color: #ffffff;
+	float: right;
+	font-size: 26pt;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 .post {
-margin-bottom: 70px;
+	margin-bottom: 70px;
+	margin-right: 20px;
 
 }
 .post h2 a, .post h2 a:visited {
-color: #000000;
+	color: #000000;
 }
 
-.breaking{    
-	display: block;
-    width:100%;
-    word-wrap: break-word;
+.breaking{
+	position: absolute;
+}
+
+.wrap-text{
+	word-wrap: break-word;
+
+}
+
+
+.footer {
     
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 10px;
+    background-color: #494D55;
+    position: fixed;
+    
+}
+
+.foot-style p{
+
+	color: #ffffff;
+	
+	text-decoration: none;
+
+
+}
+.list-head{
+	font-size: 20pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.left{
+	margin-left: 20px;
+}
+
+.right{
+	margin-right: -20px;
+}
+
+@media screen and (min-width: 400px) {
+
 }
 

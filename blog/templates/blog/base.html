@@ -20,12 +20,34 @@
 			{% endif %}
 			<h1><a href="/">Mohammed's Blog</a></h1>
 		</div>
-		<div class="content container">
+		<div class="content container-fluid">
 			<div class="row">
-				<div class="col breaking"> 
-				{% block content %}
-				{% endblock %}
+				<div class="col wrap-text"> 	
+					{% block content %}
+					{% endblock %}
 				</div>		
 			</div>
 		</div>
+
+		<footer class="footer page-footer">
+
+			<div class="container">
+
+				<div class="row">
+					<div class="col-sm-6 foot-style text-center">
+						<p class="list-head">Made By</p>
+						<p>Mohammed Jaber Alqasemi</p>
+						<p>University of Birmingham</p>
+						
+					</div>
+
+					<div class="col-sm-6 foot-style text-center">
+						<p class="list-head">Made With</p>
+						<p>Django</p>
+						<p>Bootstrap</p>
+					</div>
+
+				</div>
+			</div>
+		</footer>
 	</body>
