@@ -1,3 +1,12 @@
 myweb\Scripts\activate
 
 python manage.py runserver
+
+
+
+for pythonanywhere.com
+
+cd mjalq.pythonanywhere.com
+git pull
+
+pyhton manage.py collectstatic
